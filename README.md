@@ -13,11 +13,13 @@
 ||subnet-01458218040d3ae86 |rtb-08550afac4a0b24de|
 ||subnet-0065ca9df131529bb |rtb-08550afac4a0b24de|
 
-## VPC
+# VPC
 
 |Tags|VPC ID |IPv4 CIDR |
 |------|---------|---------|
 |live-sample-vpc|vpc-0d105626b5933a035|10.10.0.0/16|
+
+## SECURITY GROUPS
 
 |Tags|Security groups| 
 |------|---------|  
@@ -31,6 +33,8 @@
 |default|sg-09b78009f3bc90804 |
 |live-http-https|sg-0e794452a86a3330e |
 
+## SUBNET 
+
 |Tags|Subnet ID| 
 |------|---------| 
 |live-sample-subnet-private-us-east-1a|subnet-01068cf8ad487b3e0 |
@@ -39,6 +43,8 @@
 |live-sample-subnet-private-us-east-1c|subnet-0ca156edb893f6ca1 |
 |live-sample-subnet-public-us-east-1a	|subnet-0dbb9b74c40e80fff |
 |live-sample-subnet-public-us-east-1b|subnet-0fbbda8b6630f75bd|
+
+## ROUTE TABLE 
 
 |Tags|Route Table ID| 
 |------|---------| 
@@ -49,14 +55,22 @@
 |live-sample-subnet-private-us-east-1a-rt|rtb-0289009ef0a2668db|
 |live-sample-subnet-private-us-east-1a-rt|rtb-01ce77e62f2f500db|
 
+## INSTANCE
+
 |Tags |Instance ID|Instance type|Private IPv4 addresses
 |------|---------|---------|--------|
 |stage-sample-0|i-0c8a6860e438adc2b|t3.small|10.10.12.236|
 |live-sample-pritunl-0|i-00debe762c2a2549e|t3.small|10.10.122.166|
 
+## LOAD BALANCER
 
+|Tags |DNS name |ARN |
+|------|------|------|
+|sample-stage|sample-stage-565259004.us-east-1.elb.amazonaws.com|arn:aws:elasticloadbalancing:us-east-1:274086747439:loadbalancer/app/sample-stage/be483a3d0d440d07|
 
+## RDS 
 
-
-
+|DB identifier |Role| Engine| Region & AZ |Size|
+|------|---------|---------|--------|--------|
+|stage-sample-1 | Writer instance| Aurora MySQL | us-east-1a |db.t3.small |
 
