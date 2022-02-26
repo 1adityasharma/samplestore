@@ -74,3 +74,8 @@
 |------|---------|---------|--------|--------|
 |stage-sample-1 | Writer instance| Aurora MySQL | us-east-1a |db.t3.small |
 
+## Elastic File System
+
+|Tags |File system ID |
+|------|---------|---------|
+
