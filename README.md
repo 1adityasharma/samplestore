@@ -4,16 +4,14 @@
 |------|---------|---------|--------|
 ||vpc-0bdc9a2d7769558ed|172.31.0.0/16 |sg-0e11e68c73779a250 |
 
-|Tags|Subnet resource ID |
-|-------|------|
-||subnet-0065ca9df131529bb|
-||subnet-01458218040d3ae86|
-||subnet-01458218040d3ae86|
-||subnet-030510599251495b3|
-||subnet-05b30d765e457eb8f|
-||subnet-0e870afeeaf785a57|
-||subnet-0efbd77b48761c913|
-
+|Tags|Subnet resource ID |Route table ID|
+|-------|------|-----|
+||subnet-030510599251495b3|rtb-08550afac4a0b24de|
+||subnet-05b30d765e457eb8f|rtb-08550afac4a0b24de|
+||subnet-0e870afeeaf785a57|rtb-08550afac4a0b24de|
+||subnet-0efbd77b48761c913|rtb-08550afac4a0b24de|
+||subnet-01458218040d3ae86 |rtb-08550afac4a0b24de|
+||subnet-0065ca9df131529bb |rtb-08550afac4a0b24de|
 
 ## VPC
 
@@ -41,3 +39,24 @@
 |live-sample-subnet-private-us-east-1c|subnet-0ca156edb893f6ca1 |
 |live-sample-subnet-public-us-east-1a	|subnet-0dbb9b74c40e80fff |
 |live-sample-subnet-public-us-east-1b|subnet-0fbbda8b6630f75bd|
+
+|Tags|Route Table ID| 
+|------|---------| 
+|live-sample-subnet-public-us-east-1c-rt|rtb-0ebe7426f913345a4|
+|live-sample-subnet-public-us-east-1b-rt|rtb-03e7592c6f80dbd5e
+|live-sample-subnet-public-us-east-1b-rt|rtb-07d19542a6263014e|
+|live-sample-subnet-public-us-east-1a-rt|rtb-0e2bf5e29d1428f75|
+|live-sample-subnet-private-us-east-1a-rt|rtb-0289009ef0a2668db|
+|live-sample-subnet-private-us-east-1a-rt|rtb-01ce77e62f2f500db|
+
+|Tags |Instance ID|Instance type|Private IPv4 addresses
+|------|---------|---------|--------|
+|stage-sample-0|i-0c8a6860e438adc2b|t3.small|10.10.12.236|
+|live-sample-pritunl-0|i-00debe762c2a2549e|t3.small|10.10.122.166|
+
+
+
+
+
+
+
