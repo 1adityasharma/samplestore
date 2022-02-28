@@ -1,3 +1,7 @@
+![Untitled Diagram-Page-1 drawio (1)](https://user-images.githubusercontent.com/82954458/155980888-bf65d3e7-281e-467a-86da-35181825c467.png)
+
+
+
 ## VPC
 
 |Tags|VPC ID |IPv4 CIDR |Security groups|
@@ -77,5 +81,5 @@
 ## Elastic File System
 
 |Tags |File system ID |
-|------|---------|---------|
-
+|------|---------|
+|stage-sample|fs-073e6ab5e4a3acacd|
